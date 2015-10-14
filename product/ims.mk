@@ -1,6 +1,14 @@
 # Include IMSEnabler
 PRODUCT_PACKAGES += \
-    IMSEnabler
+    IMSEnabler \
+    init.qti.ims.sh \
+    ims \
+    imscmlibrary
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/ims/imscm.xml:system/etc/permissions/imscm.xml \
+    $(LOCAL_PATH)/configs/ims/ims.xml:system/etc/permissions/ims.xml \
+    $(LOCAL_PATH)/configs/ims/qti_permissions.xml:system/etc/permissions/qti_permissions.xml
 
 # VT
 PRODUCT_PACKAGES += \
