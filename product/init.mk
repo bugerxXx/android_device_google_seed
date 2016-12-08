@@ -9,5 +9,7 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     init.target.power.rc \
+    libqcomvisualizer \
+    libqcompostprocbundle \
     ueventd.qcom.rc \
     ueventd.rc
