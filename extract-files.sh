@@ -17,8 +17,8 @@
 
 #set -e
 
-export DEVICE=seed
-export VENDOR=google
+export DEVICE=wt86518
+export VENDOR=lenovo
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

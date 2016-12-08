@@ -1,2 +1,2 @@
 # Recovery
-TARGET_RECOVERY_FSTAB := device/google/seed/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/lenovo/wt86518/rootdir/etc/fstab.qcom

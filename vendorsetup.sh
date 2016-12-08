@@ -1,0 +1,1 @@
+add_lunch_combo cm_wt86518-userdebug

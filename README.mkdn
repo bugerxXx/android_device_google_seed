@@ -1,15 +1,17 @@
-Unified Device Tree for Android One Second Generation (seed)
+Unified Device Tree for Lenovo A6000 (wt86518)
 ============================================================
 Basic   | Specification List
 -------:|:-------------------------
 CPU     | Quad-core 1.2 GHz ARM® Cortex™ A53
 CHIPSET | Qualcomm MSM8916 Snapdragon 410
 GPU     | Adreno 306
-Memory  | 2 GB
-Shipped Android Version | 5.1.1
-Storage | 16 GB
-MicroSD | Up to 128 GB
-Battery | 2500 mAh (removable)
+Memory  | 1/2 GB
+Shipped Android Version | 4.4.4
+Storage | 8/16 GB
+MicroSD | Up to 32 GB
+Battery | 2300 mAh (removable)
 Display | 720 x 1280 pixels, 5" (294ppi)
-Rear Camera  | 13.0 MP Dual-Flash
-Front Camera | 5.0 MP
+Rear Camera  | 8.0 MP
+Front Camera | 2.0 MP
+
+Credit : Arvin Quilao for Awesome tree For Google Android One 2nd Generation (seed)

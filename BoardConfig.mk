@@ -15,11 +15,33 @@
 
 FORCE_32_BIT := true
 
+TW_INCLUDE_CRYPTO := true
+
+# Video
+TARGET_HAVE_SIGNED_VENUS_FW := true
+
+TARGET_OTA_ASSERT_DEVICE := Kraft-T,K30T,K30-T,A6000,Kraft-W,Kraft-C,k30t,msm8916,Kraft-A6000,wt86518
+
+# Rom Tool Chain
+TARGET_GCC_VERSION_EXP := 4.9
+
+# Kernel Tool Chain
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+BOARD_KERNEL_IMAGE_NAME := zImage
+
+# Charger
+BOARD_CHARGER_DISABLE_INIT_BLANK := true
+
+# FM
+AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
+TARGET_QCOM_NO_FM_FIRMWARE := true
+
 -include device/cyanogen/msm8916-common/BoardConfigCommon.mk
 
-include device/google/seed/board/*.mk
+include device/lenovo/wt86518/board/*.mk
 
-TARGET_BOARD_INFO_FILE := device/google/seed/board-info.txt
+TARGET_BOARD_INFO_FILE := device/lenovo/wt86518/board-info.txt
 
 # inherit from the proprietary version
 -include vendor/google/seed/BoardConfigVendor.mk

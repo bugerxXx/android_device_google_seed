@@ -1,3 +1,3 @@
 # SELinux
 BOARD_SEPOLICY_DIRS += \
-    device/google/seed/sepolicy
+    device/lenovo/wt86518/sepolicy

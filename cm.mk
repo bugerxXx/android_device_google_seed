@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/google/seed/full_seed.mk)
+$(call inherit-product, device/lenovo/wt86518/full_wt86518.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
@@ -20,16 +20,16 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-PRODUCT_NAME := cm_seed
-BOARD_VENDOR := google
-PRODUCT_DEVICE := seed
+PRODUCT_NAME := cm_wt86518
+BOARD_VENDOR := lenovo
+PRODUCT_DEVICE := wt86518
 
-PRODUCT_GMS_CLIENTID_BASE := android-google
+PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
-PRODUCT_MANUFACTURER := Google
-PRODUCT_MODEL := Google Seed
+PRODUCT_MANUFACTURER := Lenovo
+PRODUCT_MODEL := Lenovo A6000
 
-PRODUCT_BRAND := Google
-TARGET_VENDOR := Google
-TARGET_VENDOR_PRODUCT_NAME := Seed
-TARGET_VENDOR_DEVICE_NAME := seed
+PRODUCT_BRAND := Lenovo
+TARGET_VENDOR := Lenovo
+TARGET_VENDOR_PRODUCT_NAME := A6000
+TARGET_VENDOR_DEVICE_NAME := wt86518
