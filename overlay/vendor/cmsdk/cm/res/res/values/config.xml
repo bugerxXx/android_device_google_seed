@@ -17,8 +17,8 @@
 <resources>
 
     <!-- Default wi-fi hotspot ssid -->
-    <string name="config_wifiHotSpotSsid" translatable="false">Redmi 2</string>
+    <string name="config_wifiHotSpotSsid" translatable="false">Lenovo A6000</string>
     <!-- Default wi-fi direct name -->
-    <string name="config_wifiDirectName" translatable="false">Redmi 2</string>
+    <string name="config_wifiDirectName" translatable="false">Lenovo A6000</string>
 
 </resources>
