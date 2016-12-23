@@ -13,5 +13,3 @@ Battery | 2300 mAh (removable)
 Display | 720 x 1280 pixels, 5" (294ppi)
 Rear Camera  | 8.0 MP
 Front Camera | 2.0 MP
-
-Credit : Arvin Quilao for Awesome tree For Google Android One 2nd Generation (seed)
