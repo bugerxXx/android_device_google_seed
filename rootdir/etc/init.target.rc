@@ -83,5 +83,8 @@ service calibacc /system/bin/accelcal
     oneshot
     disabled
 
+on property:sys.boot_completed=1
+    restart media
+
 on property:sys.sensors.acc=*
 start calibacc
